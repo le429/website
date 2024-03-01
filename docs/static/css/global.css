@@ -1,0 +1,111 @@
+/*------------------------------------------------------------------------------
+ * Global variables
+------------------------------------------------------------------------------*/
+:root {
+  --main-color: #f5f5f5;
+  
+  --contrast-color: #1b1b1b;
+  --contrast-color-: #353535;
+  --contrast-color--: #4d4d4d;
+  --contrast-color---: #636363;
+  --contrast-color----: #9c9c9c;
+  --contrast-color-----: #c2c2c2;
+
+  --special-color: #cf0000;
+  --special-color-:rgb(165, 0, 0);
+  --special-color--:rgb(95, 0, 0);
+
+  --width-constraint-normal: 85rem;
+  --width-constraint-medium: 65rem;
+  --width-constraint-narrow: 40rem;
+
+  --generic-border: 5px solid var(--special-color);
+}
+
+/*------------------------------------------------------------------------------
+ * Reset
+------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Domine', serif;
+  max-width: var(--width-constraint-normal);
+}
+
+html {
+  max-width: unset;
+  font-size: 18px;
+  color: var(--contrast-color);
+}
+
+@media screen and (min-width: 1601px) {
+}
+
+@media screen and (min-width: 1281px) {
+}
+
+@media screen and (max-width: 769px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*------------------------------------------------------------------------------
+ * Utils
+------------------------------------------------------------------------------*/
+@media screen and (max-width: 769px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+/*------------------------------------------------------------------------------
+ * Generic elements
+------------------------------------------------------------------------------*/
+body {
+  max-width: unset;
+  min-height: 100vh;
+  padding: 1.5rem;
+  border: 1rem solid var(--contrast-color);
+}
+
+@media screen and (max-width: 769px) {
+  body{
+    border-width: 0.65rem;
+    padding: 1rem;
+  }
+}
+
+a {
+  color: var(--special-color);
+  text-decoration: underline;
+  font-style: italic;
+  transition: color 0.35s ease-in-out;
+}
+
+a.active,
+a:hover {
+  color: var(--special-color--);
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+iframe {
+  width: 100%;
+}

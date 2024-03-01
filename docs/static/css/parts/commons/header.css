@@ -1,0 +1,88 @@
+body > header {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1.25rem;
+}
+
+/*------------------------------------------------------------------------------
+ * Title
+------------------------------------------------------------------------------*/
+body > header > div {
+  margin-bottom: 1rem;
+}
+
+body > header > div strong {
+  display: block;
+  font-size: 7rem;
+  letter-spacing: -0.25rem;
+}
+
+@media screen and (max-width: 769px) {
+  body > header > div strong {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  body > header > div strong {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  body > header > div strong {
+    font-size: 4rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+body > header > div i {
+  color: var(--special-color);
+  font-style: normal;
+}
+
+body > header > div span {
+  display: block;
+  color: var(--contrast-color);
+  font-size: 1rem;
+  margin-top: -0.35rem;
+}
+
+/*------------------------------------------------------------------------------
+ * Navigation
+------------------------------------------------------------------------------*/
+body > header > nav {
+
+}
+
+body > header > nav > ul {
+  border-top: 1px solid var(--contrast-color-----);
+  border-bottom: 1px solid var(--contrast-color-----);
+  padding: 1rem;
+}
+
+body > header > nav > ul > li {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: 769px) {
+  body > header > nav > ul > li {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+body > header > nav > ul > li > a {
+  color: var(--contrast-color);
+  font-style: normal;
+  /*text-decoration: none;*/
+}
+
+body > header > nav > ul > li > a.active,
+body > header > nav > ul > li > a:hover {
+  color: var(--special-color);
+  /*text-decoration: none;*/
+}

@@ -1,0 +1,111 @@
+.page-content {
+  max-width: var(--width-constraint-narrow);
+  margin: auto;
+  margin-bottom: 1rem;
+  clear: both;
+  overflow: hidden;
+}
+
+.page-content h2 {
+  font-size: 1.75rem;
+  padding-bottom: 0.5rem;
+  letter-spacing: -0.035rem;
+}
+
+/*.page-content h2:not(:first-child) {*/
+.page-content h2 {
+  border-top: var(--generic-border);
+  padding-top: 1rem;
+}
+
+.page-content h3 {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  letter-spacing: -0.025rem;
+}
+
+.page-content h4 {
+  font-size: 1.25rem;
+  padding-bottom: 0.5rem;
+  letter-spacing: -0.015rem;
+}
+
+.page-content p {
+  font-size: 1rem;
+  line-height: 1.65rem;
+  margin-bottom: 1rem;
+  color: var(--contrast-color-);
+}
+
+.page-content p strong {
+  color: var(--contrast-color);
+}
+
+.page-content iframe {
+  width: 100%;
+  height: 22rem;
+  border-radius: 15px;
+  display: block;
+  margin-bottom: 1.25rem;
+  border-bottom: var(--generic-border);
+}
+
+@media screen and (max-width: 769px) {
+  .page-content iframe {
+    height: 13rem
+  }
+}
+
+.page-content img {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  max-height: 18rem;
+  object-fit: contain;
+  /*border-bottom: var(--generic-border);*/
+}
+
+.page-content img.float-left, 
+.page-content img[alt*="(à gauche)"] {
+  width: 40%;
+  float: left;
+  margin-right: 1rem;
+  padding-top: 0.35rem;
+}
+
+.page-content img.float-right,
+.page-content img[alt*="(à droite)"] {
+  width: 40%;
+  float: right;
+  margin-left: 1rem;
+  padding-top: 0.35rem;
+}
+
+.page-content .backlink {
+  text-align: center;
+  display: block;
+}
+
+/* Special case: RadioEvasion.net podcasts */
+.page-content a[href^="https://www.radioevasion.net/20"] {
+  display: inline-block;
+  color: var(--main-color);
+  background-color: var(--special-color);
+  text-decoration: none;
+  font-style: normal;
+  padding: .75rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 769px) {
+  .page-content a[href^="https://www.radioevasion.net/20"] {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+
+.page-content a[href^="https://www.radioevasion.net/20"]:hover {
+  background-color: var(--special-color-);
+}

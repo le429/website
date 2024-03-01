@@ -1,0 +1,74 @@
+/*------------------------------------------------------------------------------
+ * Items
+------------------------------------------------------------------------------*/
+.articles-list {
+  display: grid;
+  grid-template-areas: "a a";
+  gap: 1.5rem;
+  grid-auto-rows: auto;
+  margin: auto;
+  margin-bottom: 2rem;
+  list-style-type: none;
+  max-width: var(--width-constraint-medium);
+}
+
+@media screen and (max-width: 769px) {
+  .articles-list {
+    display: block;
+  }
+
+  .articles-list li {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/*------------------------------------------------------------------------------
+ * Details
+------------------------------------------------------------------------------*/
+.articles-list li a {
+  color: var(--contrast-color);
+  text-decoration: none;
+  font-style: normal;
+  display: block;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.articles-list li a:hover {
+  color: var(--contrast-color);
+  opacity: 0.9;
+}
+
+.articles-list li a img {
+  color: unset;
+  text-decoration: none;
+  font-style: normal;
+  max-height: 16rem;
+  min-height: 16rem;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(1);
+  display: block;
+}
+
+@media screen and (max-width: 769px) {
+  .articles-list li a img {
+    max-height: 11rem;
+    min-height: 11rem;
+  }
+}
+
+.articles-list li a h2 {
+  letter-spacing: -0.05rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.5rem;
+  border-top: var(--generic-border);
+  font-size: 1.4rem;
+}
+
+.articles-list li a p {
+  font-size: 1rem;
+  line-height: 1.65rem;
+  color: var(--contrast-color-);
+}
