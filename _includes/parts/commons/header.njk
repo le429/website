@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+
+  <head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ title }} | {{ general.site_name }}</title>
+
+    <meta name="description" content="{{ description }}"/>
+
+    <meta property="og:title" content="{{ title }} | {{ general.site_name }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ description }}" />
+    {% if social_image %}
+    <meta property="og:image" content="{{ social_image }}" />
+    {% endif %}
+
+    <!-- Stylesheets -->
+    <link rel='stylesheet' media='all' href="/static/css/global.css"/>
+    <link rel='stylesheet' media='all' href="/static/css/parts/commons/header.css"/>
+    <link rel='stylesheet' media='all' href="/static/css/parts/commons/gdpr.css"/>
+    <link rel='stylesheet' media='all' href="/static/css/parts/commons/footer.css"/>
+    <link rel='stylesheet' media='all' href="/static/css/parts/commons/contextual-title.css"/>
+    <link rel='stylesheet' media='all' href="/static/css/parts/commons/page-content.css"/>
+
+    {% if pagination %}
+    <link rel='stylesheet' media='all' href="/static/css/parts/commons/pagination.css"/>
+    <link rel='stylesheet' media='all' href="/static/css/parts/specifics/articles-list.css"/>
+    {% endif %}
+
+    {% if list_of_books %}
+    <link rel='stylesheet' media='all' href="/static/css/parts/specifics/books-list.css"/>
+    {% endif %}
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap">
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap">
+    </noscript>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/static/uploads/favicon.png" />
+    
+  </head>
+
+  <body>
+
+    <header>
+
+        <div>
+          <strong>{{general.site_name}}<i aria-hidden="true">.</i></strong>
+          <span>Le blog de <i>Patrick Cargnelutti</i>, auteur.</span>
+        </div>
+
+        <nav>
+          <ul>
+          {% for link in navigation.links %}
+          <li>
+            <a href="{{ link.url }}" title="{{ link.description }}" class="{% if page.url == link.url %}active{% endif %}">
+              {{ link.text }}
+            </a>
+          </li>
+          {% endfor %}
+          </ul>
+        </nav>
+
+    </header>

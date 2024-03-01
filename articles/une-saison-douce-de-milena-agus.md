@@ -1,0 +1,67 @@
+---
+title: UNE SAISON DOUCE de Milena Agus
+date: 2021-02-14
+pic: static/uploads/articles-livres-alt.jpg
+social_image: static/uploads/une-saison-douce.jpg
+description: Milena Agus ose s’emparer, avec malice, du thème, très clivant, des
+  migrants et réussit, en virtuose des mots, à en faire une magnifique histoire.
+  Un roman qui rend heureux, mêlant réflexions profondes et constats sévères aux
+  émotions vraies et plaisirs simples
+author: Patrick
+tags:
+  - roman
+  - liana-levi
+layout: page.njk
+---
+## Ce qu'en dit la maison d'édition
+
+**[UNE SAISON DOUCE](https://www.lianalevi.fr/catalogue/une-saison-douce/)** - Milena Agus - Éditions Liana Levi - 166 p. février 2021
+Traduit de l’italien par Marianne Faurobert
+
+![Couverture du roman, du linge sèche sur un fil tendu entre deux chaises, sur un fond bleu uni.](static/uploads/une-saison-douce.jpg "Une saison douce")
+
+Il pleuvait à torrents et personne, vraiment personne, n’était prêt à ouvrir sa porte, et surtout pas à ces individus. Oui, il y avait des Blancs parmi eux – les humanitaires qui les accompagnaient – mais ils étaient tout aussi étranges que les autres malheureux, mal fagotés et mal en point.
+
+Que venaient-ils faire, ces envahisseurs, dans notre petit village où il n’y avait plus de maire, plus d’école, où les trains ne passaient plus et où même nos enfants ne voulaient plus venir ? Nous nous demandions comment les affronter, où les abriter puisqu’il le fallait. Eux aussi, les migrants, avaient l’air déboussolés.
+
+C’était pour ce coin perdu de Sardaigne, ce petit village délaissé, qu’ils avaient traversé, au péril de leur vie, la Méditerranée ? C’était ça, l’Europe ?
+
+## Et sinon ?
+
+**Dans le Campidanese, à l’intérieur des terres sardes**, un village se meurt lentement d’ennui à l’aube de l’été. En quelques années, il a tout perdu : sa jeunesse partie chercher du travail à la ville et ne revenant qu’en de très rares occasions, ses cultures vivrières, remplacées par des artichauts et des jachères, changement imposé par quelque technocrate néolibéral n’ayant jamais mis les pieds ici, ses maisons typiques en pierre du pays, abîmées par le temps, désormais retapées d’aluminium, de plastique et de béton. Les citadins qui achetaient jadis ses produits agricoles renommés ne viennent plus. Il n’y a plus d’enfants pour rire et crier dans les rues, plus de maire, le dernier a fui, lui aussi, vers la ville, même le train ne s’arrête plus et passe à toute vitesse, lâchant un coup de sifflet sarcastique. Rien, vraiment rien qui puisse attirer qui que ce soit. Aussi, c’est une immense surprise pour tous les habitants de voir débarquer une cohorte de réfugiés, principalement noirs, encadrée de quelques humanitaires.
+
+**Des étrangers ! Ici ! Autant dire des extraterrestres**, bien vite baptisés « envahisseurs », potentiellement des dangers, sait-on jamais, avec tout ce que l’on voit à la télé et ce qu’on lit dans les journaux... Pourtant la curiosité des femmes sardes face à un événement de cette importance dans leurs mornes existences va peu à peu prendre le pas sur la méfiance. Ce chœur des épouses et des veuves au foyer deviendra le narrateur, le « nous » racontant ce séjour des migrants, en opposition aux « Autres », les maris ne supportant pas de ne plus être le centre du monde, et les belles-mères ne supportant pas que la chair de leur chair ne soit plus ce même centre du monde. « Mais à présent, depuis l’arrivée des migrants, plus une conversation entre maris et femmes n’avait lieu sans une dispute. » Ces antagonismes, dans lesquels les réfugiés n’ont absolument rien à voir, auraient pu être l’occasion de recommencer à communiquer dans les couples, mais les maris choisissent bien vite la fuite pour se retrouver à la taverne à boire et fustiger la conduite inconvenante de leurs épouses. Celles-ci commencent par rhabiller les réfugiés, trempés par la pluie. Même si les tailles ne sont pas tout à fait idéales, de se voir ainsi attifés des mêmes vêtements va déclencher un début de conscience d’être en face de semblables et non d’envahisseurs.
+
+**Chez les migrants également, les avis sont partagés**, leurs sentiments tout à fait semblables à ceux des Sardes. Eux aussi abritent des « Autres » dans leurs rangs. Pour beaucoup, ce désert n’est pas l’Europe dont ils avaient rêvé, pour laquelle ils avaient bravé mille dangers, abandonné leur famille, vu leurs amis mourir ou être vendus comme esclaves en Libye, avaient assisté aux viols de leurs femmes, filles ou sœurs. Tous avaient traverser l’enfer et espérait un morceau de paradis. Ils se retrouvaient dans un décor à peu près aussi désolé que celui qu’ils avaient quitté, les bombes et les sévices en moins. Certains sont révoltés par l’état pitoyable du logement qui leur a été attribué par les autorités. Nul dans l’administration ne s’était inquiété du bâtiment, surnommé le Rudere (la ruine). Il était libre, il ferait l’affaire. Une bâtisse sans porte, prenant l’air de tous côtés, à la toiture plus percée qu’une passoire, que les femmes du village et les bonnes volontés parmi les réfugiés vont arranger au mieux afin qu’elle soit un peu plus habitable.
+
+**Le village, du moins une partie, se met à revivre**, à faire des projets en accord avec les migrants. Les femmes se souviennent du temps où l’on se serrait les coudes dans la communauté, où l’on partageait les tâches, s’entraidait aux moissons ou aux récoltes, tout cela n’existe plus. « *En ce temps-là, on détestait ceux qui se portaient mieux que les autres, pas comme aujourd’hui, où l’on déteste ceux qui vont plus mal.* » Elles ont pourtant été « *les premières à avoir été au lycée, même s’il était loin d’ici, et à avoir porté des minijupes sans nous faire rouer de coups /...* », puis se sont laissées enterrer vivantes dans les traditions aliénantes et la routine assassine. L’arrivée des « envahisseurs » les réveille d’un long sommeil, ils apportent la vie avec cette jeune noire enceinte, la jeunesse, l’envie de démarrer autre chose. Avec eux vont renaître les beaux mots de solidarité, de coopération, de synergie, des mots qui rendent plus forts, bien loin de ceux sordides, pitié ou charité, créant une hiérarchie.
+
+Une idée se met à poindre : **pourquoi pas tenter de faire revivre un potager ?** Elles n'ont jamais été d'accord avec cette idée stupide de ne plus cultiver que de la biomasse et des artichauts, imposée par des technocrates n'ayant jamais mis les pieds à la campagne, surtout pas ici, dans ce désert. Aidées des réfugiés et des humanitaires qui le souhaitent, on bêche, on sème, on arrose, on désherbe, on cultive, on se parle, on s’apprend, on communique... Un projet commun est et restera toujours la meilleure façon de faire société.
+
+Milena Agus nous offre une fabuleuse galerie de portraits, de personnages pittoresques qu’elle va faire vivre et décrire jusqu’au plus intime. Aucune trace de mièvrerie, ou de naïveté, elle nous parle d’humains et connaît son sujet sur le bout des doigts, sans se faire d’illusions, sans porter un regard naïf. Aucun de ses protagonistes n’est taillé d’un bloc, l’occasion idéale de nous montrer combien la différence est mince entre des individus que l’on pourrait croire opposés à l’extrême. Les uns sont porteurs d’espoir, les autres ruminent leur disgrâce, s’enferment dans la rancœur et le sentiment d’injustice, comme si ce concept existait à l’état naturel, mais, dans le fond, ce qui les sépare le plus, c’est le désir de comprendre, la curiosité de savoir.
+
+**Une saison douce est une immense bouffée de fraîcheur bienfaisante**, l’autrice manie l’ironie en experte, et se débrouille également mieux que bien avec l’humour, on rit souvent tout au long du livre. Elle sait aussi montrer avec subtilité et finesse la naissance de sentiments profonds, le désarroi, la pudeur du malheur ou la fougue de la jeunesse, capable de ressusciter tout un village et d’unir les bonnes volontés. N’hésitez surtout pas à envahir la magnifique Sardaigne de Milena Agus, à venir à la rencontre de Robin, le jeune garçon humanitaire à la bouche de travers, de Saïd, cuisinier surdoué, de la Tantine expliquant L’Odyssée à son lointain neveu, du Pou, du Tailleur et de dizaines d’autres, un univers à part entière comprenant curé, évangélique, professeur, étudiante, riches, pauvres, enthousiastes, pessimistes... Cette fugace saison est une formidable leçon de vie, un manuel sinon de bonheur, du moins de la façon d’être moins malheureux ensemble. Bien malin qui, à la fin du récit, sait quelle communauté est le plus venue en aide à l’autre, et cela n’a réellement aucune importance. À noter l'excellente traduction de Marianne Faurobert !
+
+**Milena Agus ose s’emparer, avec malice, du thème, très clivant, des migrants et réussit, en virtuose des mots, à en faire une magnifique histoire**. Son récit n’occulte pas les souffrances, tant des paysans oubliés de l’Europe, que des misérables rescapés des radeaux, mais sait aussi nous parler d’empathie, de solidarité et d’humanité intelligente. Un roman qui rend heureux, mêlant réflexions profondes et constats sévères aux émotions vraies et plaisirs simples.
+
+## L'autrice
+
+**Milena Agus** enthousiasme le public français en 2007 avec Mal de pierres. Le succès se propage en Italie et lui confère la notoriété dans le monde entier. Au fil des textes, elle poursuit sa route d’écrivain, singulière et libre. De ses romans elle dit : « C’est ainsi que je vois la vie, misérable et merveilleuse... » Elle vit à Cagliari, en Sardaigne, où elle est née. Milena Agus a coécrit, avec Luciana Castellina, **[Prends Garde](https://www.lianalevi.fr/catalogue/prends-garde/#:~:text=Luciana%20Castellina%20nous%20relate%20cet,Pouilles%20et%20les%20r%C3%A9voltes%20paysannes.)** (Liana Levi 2015).
+
+## La musique du livre
+
+**Giorgio Gaber** - Eva non è ancora nata
+
+**Bob Dylan** - Like a Rolling Stone
+
+**Lucio Battisti** - Emozioni
+
+**Wet Wet Wet** - Love I All Around
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bTsF3BbT178" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/IwOfCgkyEj0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gT55Y4hRlOw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h3gEkwhdXUE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

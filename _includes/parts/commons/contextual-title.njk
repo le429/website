@@ -1,0 +1,25 @@
+<div class="contextual-title">
+
+  {% if pic %}
+  <img src="{{ pic }}" alt="{{ title }}" loading="lazy"/>
+  {% endif %}
+
+  <h1>
+    {{ title }}
+
+    {% if pagination.pageNumber > 0 %}
+    - Page {{ pagination.pageNumber + 1}}
+    {% endif %}
+  </h1>
+
+  {# Content info #}
+  {% if date and author and tags %}
+  <p>
+    Par {{ author }} le {{ date | parseDateForDisplay }}, publié dans 
+    {% for tag in tags %}
+      <a href="/tags/{{ tag }}/" title="Articles dans la catégorie: {{ tag }}">{{ tag }}</a>{% if loop.index < tags.length %},{% endif %}
+    {% endfor %}
+  </p>
+  {% endif %}
+
+</div>

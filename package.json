@@ -1,0 +1,25 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf docs/ && eleventy && mv _site docs/",
+    "serve": "cd docs/ && python3 -m http.server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/le429/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/le429/website/issues"
+  },
+  "homepage": "https://github.com/le429/website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "html-minifier": "^4.0.0"
+  }
+}

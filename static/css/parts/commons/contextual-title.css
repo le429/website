@@ -1,0 +1,56 @@
+.contextual-title {
+  max-width: var(--width-constraint-narrow);
+  margin: auto;
+  text-align: center;
+}
+
+/*------------------------------------------------------------------------------
+ * Banner
+------------------------------------------------------------------------------*/
+.contextual-title img {
+  display: block;
+  margin-bottom: 1.25rem;
+  min-height: 18rem;
+  object-fit: cover;
+  width: 100%;
+  filter: grayscale(1);
+}
+
+@media screen and (max-width: 769px) {
+  .contextual-title img {
+    max-height: 11rem;
+    min-height: 11rem;
+  }
+}
+
+/*------------------------------------------------------------------------------
+ * Main title
+------------------------------------------------------------------------------*/
+.contextual-title h1 {
+  font-size: 2.25rem;
+  padding-bottom: 0.75rem;
+  letter-spacing: -0.05rem;
+}
+
+@media screen and (max-width: 769px) {
+  .contextual-title h1 {
+    font-size: 2rem;
+  }
+}
+
+/*------------------------------------------------------------------------------
+ * Content info
+------------------------------------------------------------------------------*/
+.contextual-title p {
+  margin-bottom: 1.5rem;
+  color: var(--contrast-color--);
+}
+
+.contextual-title p a {
+  color: var(--special-color);
+  font-style: italic;
+}
+
+.contextual-title p a:hover {
+  color: var(--special-color--);
+}

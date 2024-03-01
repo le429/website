@@ -1,0 +1,15 @@
+<div class="pagination">
+  {% if pagination.href.previous %}
+  <a class="prev" href="{{ pagination.href.previous }}">
+    <span aria-hidden="true">&lt;&lt;&nbsp;</span>
+    Articles plus récents
+  </a>
+  {% endif %}
+
+  {% if pagination.href.next %}
+  <a class="next" href="{{ pagination.href.next }}">
+      Articles plus anciens
+      <span aria-hidden="true">&nbsp;&gt;&gt;</span>
+    </a>
+  {% endif %}
+</div>

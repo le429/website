@@ -1,0 +1,9 @@
+<div class="page-content">
+{{ content | safe }}
+
+{# If part of a collection: add a back link (inner page) #}
+{% if not pagination and tags %}
+<a href="javascript:history.back()" class="backlink">Retour à la page précédente</a>
+{% endif %}
+</div>
+

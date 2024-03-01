@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "text": "Articles",
+      "url": "/",
+      "description": "Articles du blog"
+    },
+    {
+      "text": "Radio",
+      "url": "/tags/radio/",
+      "description": "Émissions de radio"
+    },
+    {
+      "text": "Textes publiés",
+      "url": "/deja-parus/",
+      "description": "Romans et autres publications"
+    },
+    {
+      "text": "À propos",
+      "url": "/patrick-cargnelutti-auteur/",
+      "description": "À propos de l'auteur"
+    },
+    {
+      "text": "Instagram",
+      "url": "https://www.instagram.com/patrickcargnelutti/?hl=fr",
+      "description": "Patrick Cargnelutti sur Instagram"
+    }
+  ]
+}

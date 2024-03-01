@@ -1,0 +1,14 @@
+{# To be used when pagination.items contains elements from ./articles #}
+<ul class="articles-list">
+  {% for item in pagination.items %}
+  <li>
+    <a href="{{ item.url }}" title="Lire cet aticle: {{ item.data.title }}"> 
+      {% if item.data.pic %}
+        <img src="/{{ item.data.pic }}" alt="Illustration pour {{ item.data.title }}" loading="lazy"/>
+      {% endif %}
+      <h2>{{ item.data.title }}</h2>
+      <p class="description">{{ item.data.description }}...</p>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

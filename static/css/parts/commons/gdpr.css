@@ -1,0 +1,66 @@
+@keyframes gdpr-appear {
+  0%   { opacity: 0; bottom: -500px; }
+  100% { opacity: 1; bottom: 0px; }
+}
+
+body #gdpr {
+  width: 50%;
+  position: sticky;
+  
+  bottom: -500px;
+  left: 0px;
+  background-color: var(--contrast-color);
+  color: var(--main-color);
+
+  padding: 1rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+
+  border-top: var(--generic-border);
+
+  margin: auto;
+
+  opacity: 0;
+  animation: gdpr-appear 0.75s ease-in-out 1 forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body #gdpr {
+    animation: none;
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1601px) {
+  body #gdpr { width: 75%; }
+}
+
+@media screen and (max-width: 769px) {
+  body #gdpr { 
+    width: 100%; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+body #gdpr p {
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+body #gdpr button {
+  background-color: var(--special-color);
+  color: var(--main-color);
+  border: 0px;
+  padding: 0.5rem;
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 0.35rem;
+  transition: background-color 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+body #gdpr button:hover {
+  background-color: var(--special-color-);
+}

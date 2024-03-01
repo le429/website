@@ -1,0 +1,18 @@
+---
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.all
+  size: 4
+  reverse: true
+---
+{% include "parts/commons/header.njk" %}
+
+{% include "parts/commons/contextual-title.njk" %}
+
+{% include "parts/commons/page-content.njk" %}
+
+{% include "parts/specifics/articles-list.njk" %}
+
+{% include "parts/commons/pagination.njk" %}
+
+{% include "parts/commons/footer.njk" %}
